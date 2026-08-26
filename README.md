@@ -127,6 +127,8 @@ Issues and focused pull requests are welcome. Run the full validation command se
 
 ## Attribution
 
+This is a sanitized public export of a privately developed project. See [PROVENANCE.md](PROVENANCE.md) for what is included, what is intentionally omitted, and why the public history starts with one commit.
+
 Built with [Expo](https://expo.dev/), [React Native](https://reactnative.dev/), [Expo Router](https://docs.expo.dev/router/introduction/), [Zustand](https://zustand.docs.pmnd.rs/), and [Supabase](https://supabase.com/). Third-party packages remain subject to their respective licenses.
 
 ## License
