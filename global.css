@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+@import 'uniwind';
+@import 'heroui-native/styles';
+@source './node_modules/heroui-native/lib';
+
+/* Loop App Custom Utilities */
+@layer utilities {
+  /* Primary button gradient - Warm Sunrise coral */
+  .btn-primary-gradient {
+    background: linear-gradient(135deg, #FF3B30 0%, #FF6B6B 100%);
+  }
+
+  /* Accent gradient - Lavender (design system) */
+  .btn-accent-gradient {
+    background: linear-gradient(135deg, #A1A8EA 0%, #BFC4F2 100%);
+  }
+
+  /* Celebration gradient - Yellow */
+  .celebration-gradient {
+    background: linear-gradient(135deg, #FFE66D 0%, #FFD60A 100%);
+  }
+
+  /* Apple-style shadow for elevated surfaces */
+  .shadow-apple {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  /* Playful card border radius */
+  .rounded-playful {
+    border-radius: 23px;
+  }
+}
